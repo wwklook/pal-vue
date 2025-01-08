@@ -178,17 +178,17 @@ const handleTargetChange = (value: string) => {
               class="breeding-item"
             >
               <div class="pal-info">
-                <t-avatar :image="item.parent1.avatar" size="large" />
+                <t-image :src="item.parent1.avatar" class="pal-image" />
                 <div class="pal-name">{{ item.parent1.label }}</div>
               </div>
               <span class="operation">+</span>
               <div class="pal-info">
-                <t-avatar :image="item.parent2.avatar" size="large" />
+                <t-image :src="item.parent2.avatar" class="pal-image" />
                 <div class="pal-name">{{ item.parent2.label }}</div>
               </div>
               <span class="operation">=</span>
               <div class="pal-info">
-                <t-avatar :image="item.child.avatar" size="large" />
+                <t-image :src="item.child.avatar" class="pal-image" />
                 <div class="pal-name">{{ item.child.label }}</div>
               </div>
             </div>
@@ -272,14 +272,14 @@ const handleTargetChange = (value: string) => {
 .breeding-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 24px;
+  gap: 36px 50px;
 }
 
 .breeding-item {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 16px;
+  padding: 20px;
   border-bottom: 1px solid var(--td-component-stroke);
   border: 1px solid var(--td-component-stroke);
   border-radius: 8px;
@@ -312,5 +312,12 @@ const handleTargetChange = (value: string) => {
   margin-top: 24px;
   display: flex;
   justify-content: center;
+}
+
+.pal-image {
+  width: 80px;
+  height: 80px;
+  border-radius: 4px;
+  object-fit: contain;
 }
 </style>

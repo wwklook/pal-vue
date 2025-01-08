@@ -7,12 +7,6 @@ export {}
 /* prettier-ignore */
 declare module 'vue' {
   export interface GlobalComponents {
-    HelloWorld: typeof import('./src/components/HelloWorld.vue')['default']
-    IconCommunity: typeof import('./src/components/icons/IconCommunity.vue')['default']
-    IconDocumentation: typeof import('./src/components/icons/IconDocumentation.vue')['default']
-    IconEcosystem: typeof import('./src/components/icons/IconEcosystem.vue')['default']
-    IconSupport: typeof import('./src/components/icons/IconSupport.vue')['default']
-    IconTooling: typeof import('./src/components/icons/IconTooling.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
     TAlert: typeof import('tdesign-vue-next')['Alert']
@@ -22,7 +16,6 @@ declare module 'vue' {
     TDivider: typeof import('tdesign-vue-next')['Divider']
     THeader: typeof import('tdesign-vue-next')['Header']
     THeadMenu: typeof import('tdesign-vue-next')['HeadMenu']
-    TheWelcome: typeof import('./src/components/TheWelcome.vue')['default']
     TImage: typeof import('tdesign-vue-next')['Image']
     TLayout: typeof import('tdesign-vue-next')['Layout']
     TMenu: typeof import('tdesign-vue-next')['Menu']
@@ -36,6 +29,5 @@ declare module 'vue' {
     TText: typeof import('tdesign-vue-next')['Text']
     TTitle: typeof import('tdesign-vue-next')['Title']
     TTypography: typeof import('tdesign-vue-next')['Typography']
-    WelcomeItem: typeof import('./src/components/WelcomeItem.vue')['default']
   }
 }
