@@ -1,9 +1,16 @@
 <script setup lang="ts">
-import { ref, computed } from 'vue'
+import { ref, computed, unref } from 'vue'
+import type { SelectInputProps } from 'tdesign-vue-next';
 import palData from '@/assets/palData'
 import palBreedingResultList from '@/assets/palBreedingResultList'
 
+type TPalValue = {
+  label: string
+  value: string
+}
+
 const getImageUrl = (name: string) => {
+  if (!name) return ''
   try {
     return new URL(`../assets/images/${name}.webp`, import.meta.url).href
   } catch {
@@ -11,44 +18,50 @@ const getImageUrl = (name: string) => {
   }
 }
 
-const parent1 = ref('')
-const parent2 = ref('')
-const targetPal = ref('')
+const options1 = ref(palData)
+const options2 = ref(palData)
+const options3 = ref(palData)
+
+const popupVisible1 = ref(false)
+const popupVisible2 = ref(false)
+const popupVisible3 = ref(false)
+const parent1 = ref<TPalValue | null>(null)
+const parent2 = ref<TPalValue | null>(null)
+const targetPal = ref<TPalValue | null>(null)
 const currentPage = ref(1)
-const pageSize = 10 // 每页显示3x2=6个结果
+const pageSize = 10 // 每页显示10个结果
 
 const possibleBreedings = computed(() => {
-  if (!parent1.value && !parent2.value && !targetPal.value) return []
+  if (!unref(parent1)?.value && !unref(parent2)?.value && !unref(targetPal)?.value) return []
 
   let filteredResults = palBreedingResultList
 
-
-  if (parent1.value) {
+  if (unref(parent1)?.value) {
     filteredResults = filteredResults.filter(item =>
-      item.parent1_key === parent1.value
+      item.parent1_key === unref(parent1)?.value
     )
   }
 
-  if (parent2.value) {
+  if (unref(parent2)?.value) {
     filteredResults = filteredResults.filter(item =>
-      item.parent2_key === parent2.value
+      item.parent2_key === unref(parent2)?.value
     )
   }
 
-  if (targetPal.value) {
+  if (unref(targetPal)?.value) {
     filteredResults = filteredResults.filter(item =>
-      item.child_key === targetPal.value
+      item.child_key === unref(targetPal)?.value
     )
   }
 
   return filteredResults.map(item => {
     let firstParent, secondParent
-    if (parent1.value) {
-      firstParent = parent1.value
-      secondParent = item.parent1_key === parent1.value ? item.parent2_key : item.parent1_key
-    } else if (parent2.value) {
-      firstParent = parent2.value
-      secondParent = item.parent1_key === parent2.value ? item.parent2_key : item.parent1_key
+    if (unref(parent1)?.value) {
+      firstParent = unref(parent1)?.value
+      secondParent = item.parent1_key === unref(parent1)?.value ? item.parent2_key : item.parent1_key
+    } else if (unref(parent2)?.value) {
+      firstParent = unref(parent2)?.value
+      secondParent = item.parent1_key === unref(parent2)?.value ? item.parent2_key : item.parent1_key
     } else {
       firstParent = item.parent1_key
       secondParent = item.parent2_key
@@ -61,15 +74,15 @@ const possibleBreedings = computed(() => {
     return {
       parent1: {
         label: firstParentInfo?.label || firstParent,
-        avatar: getImageUrl(firstParent)
+        avatar: getImageUrl(firstParent || '')
       },
       parent2: {
         label: secondParentInfo?.label || secondParent,
-        avatar: getImageUrl(secondParent)
+        avatar: getImageUrl(secondParent || '')
       },
       child: {
         label: resultInfo?.label || item.child_key,
-        avatar: getImageUrl(item.child_key)
+        avatar: getImageUrl(item.child_key || '')
       }
     }
   })
@@ -85,33 +98,36 @@ const handlePageChange = (e: { current: number; }) => {
   currentPage.value = e.current;
 }
 
-const breedingResult = computed(() => {
-  if (!parent1.value || !parent2.value || !targetPal.value) return null
-
-  const result = palBreedingResultList.find(
-    item => (
-      (item.parent1_key === parent1.value && item.parent2_key === parent2.value) ||
-      (item.parent1_key === parent2.value && item.parent2_key === parent1.value)
-    ) && item.child_key === targetPal.value
-  )
-
-  return result
-})
-
-const handleParent1Change = (value: string) => {
-  console.log(value);
-  parent1.value = value
+const handleParent1Click = (pal: { label: string; value: string }) => {
+  popupVisible1.value = false
+  parent1.value = pal
 }
 
-const handleParent2Change = (value: string) => {
-  console.log(value);
-  parent2.value = value
+const handleParent2Click = (pal: { label: string; value: string }) => {
+  popupVisible2.value = false
+  parent2.value = pal
 }
 
-const handleTargetChange = (value: string) => {
-  console.log(value);
-  targetPal.value = value
+const handleTargetClick = (pal: { label: string; value: string }) => {
+  popupVisible3.value = false
+  targetPal.value = pal
 }
+
+const onInput1Change: SelectInputProps['onInputChange'] = (val) => {
+  // 过滤功能
+  options1.value = palData.filter(item => item.label.includes(val) || item.pinyin.includes(val))
+};
+
+const onInput2Change: SelectInputProps['onInputChange'] = (val) => {
+  // 过滤功能
+  options2.value = palData.filter(item => item.label.includes(val) || item.pinyin.includes(val))
+};
+
+const onTargetChange: SelectInputProps['onInputChange'] = (val) => {
+  // 过滤功能
+  options3.value = palData.filter(item => item.label.includes(val) || item.pinyin.includes(val))
+};
+
 </script>
 
 <template>
@@ -122,50 +138,68 @@ const handleTargetChange = (value: string) => {
 
     <div class="breeding-form">
       <t-space align="center">
-        <t-select
-          v-model="parent1"
+        <t-select-input
+          :value="parent1"
+          :popup-visible="popupVisible1"
+          :popup-props="{ overlayInnerStyle: { padding: '6px' } }"
           class="parent-select"
-          placeholder="选择父级帕鲁1"
+          placeholder="请选择父级帕鲁1"
           clearable
-          @change="handleParent1Change"
+          allow-input
+          @popup-visible-change="(value: boolean) => popupVisible1 = value"
+          @input-change="onInput1Change"
+          @clear="() => parent1 = null"
         >
-          <t-option
-            v-for="pal in palData"
-            :key="pal.value"
-            :value="pal.value"
-            :label="pal.label"
-          />
-        </t-select>
+          <template #panel>
+            <ul class="tdesign-demo__select-input-ul-single">
+              <li v-for="pal in options1" :key="pal.value" @click="() => handleParent1Click(pal)">
+                {{ pal.label }}
+              </li>
+            </ul>
+          </template>
+        </t-select-input>
         <span class="plus">+</span>
-        <t-select
-          v-model="parent2"
+        <t-select-input
+          :value="parent2"
+          :popup-visible="popupVisible2"
+          :popup-props="{ overlayInnerStyle: { padding: '6px' } }"
           class="parent-select"
           placeholder="选择父级帕鲁2"
           clearable
-          @change="handleParent2Change"
+          allow-input
+          @popup-visible-change="(value: boolean) => popupVisible2 = value"
+          @input-change="onInput2Change"
+          @clear="() => parent2 = null"
         >
-          <t-option
-            v-for="pal in palData"
-            :key="pal.value"
-            :value="pal.value"
-            :label="pal.label"
-          />
-        </t-select>
+          <template #panel>
+            <ul class="tdesign-demo__select-input-ul-single">
+              <li v-for="pal in options2" :key="pal.value" @click="() => handleParent2Click(pal)">
+                {{ pal.label }}
+              </li>
+            </ul>
+          </template>
+        </t-select-input>
         <span class="equals">=</span>
-        <t-select
-          v-model="targetPal"
+        <t-select-input
+          :value="targetPal"
+          :popup-visible="popupVisible3"
+          :popup-props="{ overlayInnerStyle: { padding: '6px' } }"
           class="target-select"
-          placeholder="选择目标帕鲁"
+          placeholder="请选择目标帕鲁"
           clearable
-          @change="handleTargetChange"
+          allow-input
+          @popup-visible-change="(value: boolean) => popupVisible3 = value"
+          @input-change="onTargetChange"
+          @clear="() => targetPal = null"
         >
-          <t-option
-            v-for="pal in palData"
-            :key="pal.value"
-            :value="pal.value"
-            :label="pal.label"
-          />
-        </t-select>
+          <template #panel>
+            <ul class="tdesign-demo__select-input-ul-single">
+              <li v-for="pal in options3" :key="pal.value" @click="() => handleTargetClick(pal)">
+                {{ pal.label }}
+              </li>
+            </ul>
+          </template>
+        </t-select-input>
       </t-space>
 
       <div class="breeding-list" v-if="possibleBreedings.length">
@@ -205,7 +239,7 @@ const handleTargetChange = (value: string) => {
         />
       </div>
       <t-alert
-        v-else-if="parent1 && parent2 && targetPal"
+        v-else-if="parent1?.value && parent2?.value && targetPal?.value"
         theme="warning"
         title="配种失败"
       >
@@ -320,4 +354,29 @@ const handleTargetChange = (value: string) => {
   border-radius: 4px;
   object-fit: contain;
 }
+.tdesign-demo__select-input-ul-single {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  gap: 2px;
+  max-height: 500px;
+  overflow-y: auto;
+}
+.tdesign-demo__select-input-ul-single > li {
+  display: block;
+  border-radius: 3px;
+  line-height: 22px;
+  cursor: pointer;
+  padding: 3px 8px;
+  color: var(--td-text-color-primary);
+  transition: background-color 0.2s linear;
+  white-space: nowrap;
+  word-wrap: normal;
+  text-overflow: ellipsis;
+}
+
+.tdesign-demo__select-input-ul-single > li:hover {
+  background-color: var(--td-bg-color-container-hover);
+}
+
 </style>

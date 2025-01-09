@@ -1,6 +1,7 @@
 export default [
   {
     label: '棉悠悠',
+    pinyin: 'mianyouyou',
     alt: '幻兽帕鲁棉悠悠配种公式',
     value: 'Lamball',
     avatar: '/images/Lamball.webp',
@@ -8,6 +9,7 @@ export default [
   },
   {
     label: '捣蛋猫',
+    pinyin: 'daodanmao',
     alt: '幻兽帕鲁捣蛋猫配种公式',
     value: 'Cattiva',
     avatar: '/images/Cattiva.webp',
@@ -15,6 +17,7 @@ export default [
   },
   {
     label: '皮皮鸡',
+    pinyin: 'pipiji',
     alt: '幻兽帕鲁皮皮鸡配种公式',
     value: 'Chikipi',
     avatar: '/images/Chikipi.webp',
@@ -22,6 +25,7 @@ export default [
   },
   {
     label: '翠叶鼠',
+    pinyin: 'cuiyeshu',
     alt: '幻兽帕鲁翠叶鼠配种公式',
     value: 'Lifmunk',
     avatar: '/images/Lifmunk.webp',
@@ -29,6 +33,7 @@ export default [
   },
   {
     label: '火绒狐',
+    pinyin: 'huoronghu',
     alt: '幻兽帕鲁火绒狐配种公式',
     value: 'Foxparks',
     avatar: '/images/Foxparks.webp',
@@ -36,6 +41,7 @@ export default [
   },
   {
     label: '雪绒狐',
+    pinyin: 'xueronghu',
     alt: '幻兽帕鲁雪绒狐配种公式',
     value: 'Foxparks-Cryst',
     avatar: '/images/Foxparks-Cryst.webp',
@@ -43,6 +49,7 @@ export default [
   },
   {
     label: '冲浪鸭',
+    pinyin: 'chonglangya',
     alt: '幻兽帕鲁冲浪鸭配种公式',
     value: 'Fuack',
     avatar: '/images/Fuack.webp',
@@ -50,6 +57,7 @@ export default [
   },
   {
     label: '伏特喵',
+    pinyin: 'futemiao',
     alt: '幻兽帕鲁伏特喵配种公式',
     value: 'Sparkit',
     avatar: '/images/Sparkit.webp',
@@ -57,6 +65,7 @@ export default [
   },
   {
     label: '新叶猿',
+    pinyin: 'xinyeyuan',
     alt: '幻兽帕鲁新叶猿配种公式',
     value: 'Tanzee',
     avatar: '/images/Tanzee.webp',
@@ -64,6 +73,7 @@ export default [
   },
   {
     label: '燎火鹿',
+    pinyin: 'liaohuolu',
     alt: '幻兽帕鲁燎火鹿配种公式',
     value: 'Rooby',
     avatar: '/images/Rooby.webp',
@@ -71,6 +81,7 @@ export default [
   },
   {
     label: '企丸丸',
+    pinyin: 'qiwanwang',
     alt: '幻兽帕鲁企丸丸配种公式',
     value: 'Pengullet',
     avatar: '/images/Pengullet.webp',
@@ -78,6 +89,7 @@ export default [
   },
   {
     label: '企丸王',
+    pinyin: 'qiwanwang',
     alt: '幻兽帕鲁企丸王配种公式',
     value: 'Penking',
     avatar: '/images/Penking.webp',
@@ -85,6 +97,7 @@ export default [
   },
   {
     label: '電棘鼠',
+    pinyin: 'dianjishu',
     alt: '幻兽帕鲁電棘鼠配种公式',
     value: 'Jolthog',
     avatar: '/images/Jolthog.webp',
@@ -92,6 +105,7 @@ export default [
   },
   {
     label: '冰刺鼠',
+    pinyin: 'bingcishu',
     alt: '幻兽帕鲁冰刺鼠配种公式',
     value: 'Jolthog-Cryst',
     avatar: '/images/Jolthog-Cryst.webp',
@@ -99,6 +113,7 @@ export default [
   },
   {
     label: '叶泥泥',
+    pinyin: 'yenini',
     alt: '幻兽帕鲁叶泥泥配种公式',
     value: 'Gumoss',
     avatar: '/images/Gumoss.webp',
@@ -106,6 +121,7 @@ export default [
   },
   {
     label: '玉藻狐',
+    pinyin: 'yuzaohu',
     alt: '幻兽帕鲁玉藻狐配种公式',
     value: 'Vixy',
     avatar: '/images/Vixy.webp',
@@ -113,6 +129,7 @@ export default [
   },
   {
     label: '啼卡尔',
+    pinyin: 'tikaier',
     alt: '幻兽帕鲁啼卡尔配种公式',
     value: 'Hoocrates',
     avatar: '/images/Hoocrates.webp',
@@ -120,6 +137,7 @@ export default [
   },
   {
     label: '壶小象',
+    pinyin: 'huxiaoxiang',
     alt: '幻兽帕鲁壶小象配种公式',
     value: 'Teafant',
     avatar: '/images/Teafant.webp',
@@ -127,6 +145,7 @@ export default [
   },
   {
     label: '瞅什魔',
+    pinyin: 'choushimo',
     alt: '幻兽帕鲁瞅什魔配种公式',
     value: 'Depresso',
     avatar: '/images/Depresso.webp',
@@ -134,6 +153,7 @@ export default [
   },
   {
     label: '米露菲',
+    pinyin: 'milufei',
     alt: '幻兽帕鲁米露菲配种公式',
     value: 'Cremis',
     avatar: '/images/Cremis.webp',
@@ -141,6 +161,7 @@ export default [
   },
   {
     label: '寐魔',
+    pinyin: 'meimo',
     alt: '幻兽帕鲁寐魔配种公式',
     value: 'Daedream',
     avatar: '/images/Daedream.webp',
@@ -148,6 +169,7 @@ export default [
   },
   {
     label: '草莽猪',
+    pinyin: 'caomangzhu',
     alt: '幻兽帕鲁草莽猪配种公式',
     value: 'Rushoar',
     avatar: '/images/Rushoar.webp',
@@ -155,6 +177,7 @@ export default [
   },
   {
     label: '露娜蒂',
+    pinyin: 'lunadi',
     alt: '幻兽帕鲁露娜蒂配种公式',
     value: 'Nox',
     avatar: '/images/Nox.webp',
@@ -162,6 +185,7 @@ export default [
   },
   {
     label: '遁地鼠',
+    pinyin: 'dundishu',
     alt: '幻兽帕鲁遁地鼠配种公式',
     value: 'Fuddler',
     avatar: '/images/Fuddler.webp',
@@ -169,6 +193,7 @@ export default [
   },
   {
     label: '勾魂鱿',
+    pinyin: 'gouhunyou',
     alt: '幻兽帕鲁勾魂鱿配种公式',
     value: 'Killamari',
     avatar: '/images/Killamari.webp',
@@ -176,6 +201,7 @@ export default [
   },
   {
     label: '喵丝特',
+    pinyin: 'miaosite',
     alt: '幻兽帕鲁喵丝特配种公式',
     value: 'Mau',
     avatar: '/images/Mau.webp',
@@ -183,6 +209,7 @@ export default [
   },
   {
     label: '冰丝特',
+    pinyin: 'bingsite',
     alt: '幻兽帕鲁冰丝特配种公式',
     value: 'Mau-Cryst',
     avatar: '/images/Mau-Cryst.webp',
@@ -190,6 +217,7 @@ export default [
   },
   {
     label: '鲁米儿',
+    pinyin: 'lumier',
     alt: '幻兽帕鲁鲁米儿配种公式',
     value: 'Celaray',
     avatar: '/images/Celaray.webp',
@@ -197,6 +225,7 @@ export default [
   },
   {
     label: '猎狼',
+    pinyin: 'lielang',
     alt: '幻兽帕鲁猎狼配种公式',
     value: 'Direhowl',
     avatar: '/images/Direhowl.webp',
@@ -204,6 +233,7 @@ export default [
   },
   {
     label: '炸蛋鸟',
+    pinyin: 'zhadanniao',
     alt: '幻兽帕鲁炸蛋鸟配种公式',
     value: 'Tocotoco',
     avatar: '/images/Tocotoco.webp',
@@ -211,6 +241,7 @@ export default [
   },
   {
     label: '波娜兔',
+    pinyin: 'bonatu',
     alt: '幻兽帕鲁波娜兔配种公式',
     value: 'Flopie',
     avatar: '/images/Flopie.webp',
@@ -218,6 +249,7 @@ export default [
   },
   {
     label: '波霸牛',
+    pinyin: 'bobaniu',
     alt: '幻兽帕鲁波霸牛配种公式',
     value: 'Mozzarina',
     avatar: '/images/Mozzarina.webp',
@@ -225,6 +257,7 @@ export default [
   },
   {
     label: '荊棘魔仙',
+    pinyin: 'jingjimoxian',
     alt: '幻兽帕鲁荊棘魔仙配种公式',
     value: 'Bristla',
     avatar: '/images/Bristla.webp',
@@ -232,6 +265,7 @@ export default [
   },
   {
     label: '鲨小子',
+    pinyin: 'shaxiaozi',
     alt: '幻兽帕鲁鲨小子配种公式',
     value: 'Gobfin',
     avatar: '/images/Gobfin.webp',
@@ -239,6 +273,7 @@ export default [
   },
   {
     label: '红小鲨',
+    pinyin: 'hongxiaosha',
     alt: '幻兽帕鲁红小鲨配种公式',
     value: 'Gobfin-Ignis',
     avatar: '/images/Gobfin-Ignis.webp',
@@ -246,6 +281,7 @@ export default [
   },
   {
     label: '吊缚灵',
+    pinyin: 'diaofuling',
     alt: '幻兽帕鲁吊缚灵配种公式',
     value: 'Hangyu',
     avatar: '/images/Hangyu.webp',
@@ -253,6 +289,7 @@ export default [
   },
   {
     label: '冰缚灵',
+    pinyin: 'bingfuling',
     alt: '幻兽帕鲁冰缚灵配种公式',
     value: 'Hangyu-Cryst',
     avatar: '/images/Hangyu-Cryst.webp',
@@ -260,6 +297,7 @@ export default [
   },
   {
     label: '叶胖达',
+    pinyin: 'yepangda',
     alt: '幻兽帕鲁叶胖达配种公式',
     value: 'Mossanda',
     avatar: '/images/Mossanda.webp',
@@ -267,6 +305,7 @@ export default [
   },
   {
     label: '雷胖达',
+    pinyin: 'leipangda',
     alt: '幻兽帕鲁雷胖达配种公式',
     value: 'Mossanda-Lux',
     avatar: '/images/Mossanda-Lux.webp',
@@ -274,6 +313,7 @@ export default [
   },
   {
     label: '棉花糖',
+    pinyin: 'mianhuatang',
     alt: '幻兽帕鲁棉花糖配种公式',
     value: 'Woolipop',
     avatar: '/images/Woolipop.webp',
@@ -281,6 +321,7 @@ export default [
   },
   {
     label: '灌木羊',
+    pinyin: 'guanmuyang',
     alt: '幻兽帕鲁灌木羊配种公式',
     value: 'Caprity',
     avatar: '/images/Caprity.webp',
@@ -288,6 +329,7 @@ export default [
   },
   {
     label: '郁木羊',
+    pinyin: 'yumuyang',
     alt: '幻兽帕鲁郁木羊配种公式',
     value: 'Caprity-Noct',
     avatar: '/images/Caprity-Noct.webp',
@@ -295,6 +337,7 @@ export default [
   },
   {
     label: '美露帕',
+    pinyin: 'meilupa',
     alt: '幻兽帕鲁美露帕配种公式',
     value: 'Melpaca',
     avatar: '/images/Melpaca.webp',
@@ -302,6 +345,7 @@ export default [
   },
   {
     label: '紫霞鹿',
+    pinyin: 'zixialu',
     alt: '幻兽帕鲁紫霞鹿配种公式',
     value: 'Eikthyrdeer',
     avatar: '/images/Eikthyrdeer.webp',
@@ -309,6 +353,7 @@ export default [
   },
   {
     label: '祇岳鹿',
+    pinyin: 'zhiyuelu',
     alt: '幻兽帕鲁祇岳鹿配种公式',
     value: 'Eikthyrdeer-Terra',
     avatar: '/images/Eikthyrdeer-Terra.webp',
@@ -316,6 +361,7 @@ export default [
   },
   {
     label: '疾风隼',
+    pinyin: 'jifengsun',
     alt: '幻兽帕鲁疾风隼配种公式',
     value: 'Nitewing',
     avatar: '/images/Nitewing.webp',
@@ -323,6 +369,7 @@ export default [
   },
   {
     label: '姬小兔',
+    pinyin: 'jixiaotu',
     alt: '幻兽帕鲁姬小兔配种公式',
     value: 'Ribbuny',
     avatar: '/images/Ribbuny.webp',
@@ -330,6 +377,7 @@ export default [
   },
   {
     label: '艾小兔',
+    pinyin: 'aixiaotu',
     alt: '幻兽帕鲁艾小兔配种公式',
     value: 'Ribbuny-Botan',
     avatar: '/images/Ribbuny-Botan.webp',
@@ -337,6 +385,7 @@ export default [
   },
   {
     label: '炎魔羊',
+    pinyin: 'yanmoyang',
     alt: '幻兽帕鲁炎魔羊配种公式',
     value: 'Incineram',
     avatar: '/images/Incineram.webp',
@@ -344,6 +393,7 @@ export default [
   },
   {
     label: '暗魔羊',
+    pinyin: 'anmoyang',
     alt: '幻兽帕鲁暗魔羊配种公式',
     value: 'Incineram-Noct',
     avatar: '/images/Incineram-Noct.webp',
@@ -351,6 +401,7 @@ export default [
   },
   {
     label: '幻悦蝶',
+    pinyin: 'huanyuedie',
     alt: '幻兽帕鲁幻悦蝶配种公式',
     value: 'Cinnamoth',
     avatar: '/images/Cinnamoth.webp',
@@ -358,6 +409,7 @@ export default [
   },
   {
     label: '炽焰牛',
+    pinyin: 'chiyanniu',
     alt: '幻兽帕鲁炽焰牛配种公式',
     value: 'Arsox',
     avatar: '/images/Arsox.webp',
@@ -365,6 +417,7 @@ export default [
   },
   {
     label: '趴趴鲶',
+    pinyin: 'papanian',
     alt: '幻兽帕鲁趴趴鲶配种公式',
     value: 'Dumud',
     avatar: '/images/Dumud.webp',
@@ -372,6 +425,7 @@ export default [
   },
   {
     label: '黑鸦隐士',
+    pinyin: 'heiyayinshi',
     alt: '幻兽帕鲁黑鸦隐士配种公式',
     value: 'Cawgnito',
     avatar: '/images/Cawgnito.webp',
@@ -379,6 +433,7 @@ export default [
   },
   {
     label: '朋克蜥',
+    pinyin: 'pengkexi',
     alt: '幻兽帕鲁朋克蜥配种公式',
     value: 'Leezpunk',
     avatar: '/images/Leezpunk.webp',
@@ -386,6 +441,7 @@ export default [
   },
   {
     label: '热血蜥',
+    pinyin: 'rexuexi',
     alt: '幻兽帕鲁热血蜥配种公式',
     value: 'Leezpunk-Ignis',
     avatar: '/images/Leezpunk-Ignis.webp',
@@ -393,6 +449,7 @@ export default [
   },
   {
     label: '月镰魔',
+    pinyin: 'yuelianmo',
     alt: '幻兽帕鲁月镰魔配种公式',
     value: 'Loupmoon',
     avatar: '/images/Loupmoon.webp',
@@ -400,6 +457,7 @@ export default [
   },
   {
     label: '霜镰魔',
+    pinyin: 'shuanglianmo',
     alt: '幻兽帕鲁霜镰魔配种公式',
     value: 'Loupmoon-Cryst',
     avatar: '/images/Loupmoon-Cryst.webp',
@@ -407,6 +465,7 @@ export default [
   },
   {
     label: '天擒鸟',
+    pinyin: 'tianqinniao',
     alt: '幻兽帕鲁天擒鸟配种公式',
     value: 'Galeclaw',
     avatar: '/images/Galeclaw.webp',
@@ -414,6 +473,7 @@ export default [
   },
   {
     label: '羽箭射手',
+    pinyin: 'yujiansheshou',
     alt: '幻兽帕鲁羽箭射手配种公式',
     value: 'Robinquill',
     avatar: '/images/Robinquill.webp',
@@ -421,6 +481,7 @@ export default [
   },
   {
     label: '山岳射手',
+    pinyin: 'shanyuesheshou',
     alt: '幻兽帕鲁山岳射手配种公式',
     value: 'Robinquill-Terra',
     avatar: '/images/Robinquill-Terra.webp',
@@ -428,6 +489,7 @@ export default [
   },
   {
     label: '铁拳猿',
+    pinyin: 'tiequanyuan',
     alt: '幻兽帕鲁铁拳猿配种公式',
     value: 'Gorirat',
     avatar: '/images/Gorirat.webp',
@@ -435,6 +497,7 @@ export default [
   },
   {
     label: '石掌猿',
+    pinyin: 'shizhangyuan',
     alt: '幻兽帕鲁石掌猿配种公式',
     value: 'Gorirat-Terra',
     avatar: '/images/Gorirat-Terra.webp',
@@ -442,6 +505,7 @@ export default [
   },
   {
     label: '骑士蜂',
+    pinyin: 'qishifeng',
     alt: '幻兽帕鲁骑士蜂配种公式',
     value: 'Beegarde',
     avatar: '/images/Beegarde.webp',
@@ -449,6 +513,7 @@ export default [
   },
   {
     label: '女皇蜂',
+    pinyin: 'nvhuangfeng',
     alt: '幻兽帕鲁女皇蜂配种公式',
     value: 'Elizabee',
     avatar: '/images/Elizabee.webp',
@@ -456,6 +521,7 @@ export default [
   },
   {
     label: '笑魇猫',
+    pinyin: 'xiaoyanmao',
     alt: '幻兽帕鲁笑魇猫配种公式',
     value: 'Grintale',
     avatar: '/images/Grintale.webp',
@@ -463,6 +529,7 @@ export default [
   },
   {
     label: '毛掸儿',
+    pinyin: 'maodaner',
     alt: '幻兽帕鲁毛掸儿配种公式',
     value: 'Swee',
     avatar: '/images/Swee.webp',
@@ -470,6 +537,7 @@ export default [
   },
   {
     label: '毛老爹',
+    pinyin: 'maolaodie',
     alt: '幻兽帕鲁毛老爹配种公式',
     value: 'Sweepa',
     avatar: '/images/Sweepa.webp',
@@ -477,6 +545,7 @@ export default [
   },
   {
     label: '疾旋鼬',
+    pinyin: 'jixuanyou',
     alt: '幻兽帕鲁疾旋鼬配种公式',
     value: 'Chillet',
     avatar: '/images/Chillet.webp',
@@ -484,6 +553,7 @@ export default [
   },
   {
     label: '桃旋鼬',
+    pinyin: 'taoxuanyou',
     alt: '幻兽帕鲁桃旋鼬配种公式',
     value: 'Chillet-Ignis',
     avatar: '/images/Chillet-Ignis.webp',
@@ -491,6 +561,7 @@ export default [
   },
   {
     label: '雷角马',
+    pinyin: 'leijiaoma',
     alt: '幻兽帕鲁雷角马配种公式',
     value: 'Univolt',
     avatar: '/images/Univolt.webp',
@@ -498,6 +569,7 @@ export default [
   },
   {
     label: '吹雪狐',
+    pinyin: 'chuixuehu',
     alt: '幻兽帕鲁吹雪狐配种公式',
     value: 'Foxcicle',
     avatar: '/images/Foxcicle.webp',
@@ -505,6 +577,7 @@ export default [
   },
   {
     label: '火麒麟',
+    pinyin: 'huoqilin',
     alt: '幻兽帕鲁火麒麟配种公式',
     value: 'Pyrin',
     avatar: '/images/Pyrin.webp',
@@ -512,6 +585,7 @@ export default [
   },
   {
     label: '邪麒麟',
+    pinyin: 'xielinqi',
     alt: '幻兽帕鲁邪麒麟配种公式',
     value: 'Pyrin-Noct',
     avatar: '/images/Pyrin-Noct.webp',
@@ -519,6 +593,7 @@ export default [
   },
   {
     label: '严冬鹿',
+    pinyin: 'yandonglu',
     alt: '幻兽帕鲁严冬鹿配种公式',
     value: 'Reindrix',
     avatar: '/images/Reindrix.webp',
@@ -526,6 +601,7 @@ export default [
   },
   {
     label: '霹雳犬',
+    pinyin: 'piliqun',
     alt: '幻兽帕鲁霹雳犬配种公式',
     value: 'Rayhound',
     avatar: '/images/Rayhound.webp',
@@ -533,6 +609,7 @@ export default [
   },
   {
     label: '苍焰狼',
+    pinyin: 'cangyanlang',
     alt: '幻兽帕鲁苍焰狼配种公式',
     value: 'Kitsun',
     avatar: '/images/Kitsun.webp',
@@ -540,6 +617,7 @@ export default [
   },
   {
     label: '幽焰狼',
+    pinyin: 'youyanlang',
     alt: '幻兽帕鲁幽焰狼配种公式',
     value: 'Kitsun-Noct',
     avatar: '/images/Kitsun-Noct.webp',
@@ -547,6 +625,7 @@ export default [
   },
   {
     label: '雷鸣童子',
+    pinyin: 'leimingtongzi',
     alt: '幻兽帕鲁雷鸣童子配种公式',
     value: 'Dazzi',
     avatar: '/images/Dazzi.webp',
@@ -554,6 +633,7 @@ export default [
   },
   {
     label: '天阴童子',
+    pinyin: 'tianyintongzi',
     alt: '幻兽帕鲁天阴童子配种公式',
     value: 'Dazzi-Noct',
     avatar: '/images/Dazzi-Noct.webp',
@@ -561,6 +641,7 @@ export default [
   },
   {
     label: '秘斯媞雅',
+    pinyin: 'misitiya',
     alt: '幻兽帕鲁秘斯媞雅配种公式',
     value: 'Lunaris',
     avatar: '/images/Lunaris.webp',
@@ -568,6 +649,7 @@ export default [
   },
   {
     label: '花冠龙',
+    pinyin: 'huaguanlong',
     alt: '幻兽帕鲁花冠龙配种公式',
     value: 'Dinossom',
     avatar: '/images/Dinossom.webp',
@@ -575,6 +657,7 @@ export default [
   },
   {
     label: '雷冠龙',
+    pinyin: 'leiguanlong',
     alt: '幻兽帕鲁雷冠龙配种公式',
     value: 'Dinossom-Lux',
     avatar: '/images/Dinossom-Lux.webp',
@@ -582,6 +665,7 @@ export default [
   },
   {
     label: '滑水蛇',
+    pinyin: 'huashuishe',
     alt: '幻兽帕鲁滑水蛇配种公式',
     value: 'Surfent',
     avatar: '/images/Surfent.webp',
@@ -589,6 +673,7 @@ export default [
   },
   {
     label: '流沙蛇',
+    pinyin: 'liushashe',
     alt: '幻兽帕鲁流沙蛇配种公式',
     value: 'Surfent-Terra',
     avatar: '/images/Surfent-Terra.webp',
@@ -596,6 +681,7 @@ export default [
   },
   {
     label: '噬魂兽',
+    pinyin: 'shihunshou',
     alt: '幻兽帕鲁噬魂兽配种公式',
     value: 'Maraith',
     avatar: '/images/Maraith.webp',
@@ -603,6 +689,7 @@ export default [
   },
   {
     label: '碎岩龟',
+    pinyin: 'suiyangui',
     alt: '幻兽帕鲁碎岩龟配种公式',
     value: 'Digtoise',
     avatar: '/images/Digtoise.webp',
@@ -610,6 +697,7 @@ export default [
   },
   {
     label: '猫蝠怪',
+    pinyin: 'maofuguai',
     alt: '幻兽帕鲁猫蝠怪配种公式',
     value: 'Tombat',
     avatar: '/images/Tombat.webp',
@@ -617,6 +705,7 @@ export default [
   },
   {
     label: '博爱蜥',
+    pinyin: 'boaixi',
     alt: '幻兽帕鲁博爱蜥配种公式',
     value: 'Lovander',
     avatar: '/images/Lovander.webp',
@@ -624,6 +713,7 @@ export default [
   },
   {
     label: '融焰娘',
+    pinyin: 'rongyanniang',
     alt: '幻兽帕鲁融焰娘配种公式',
     value: 'Flambelle',
     avatar: '/images/Flambelle.webp',
@@ -631,6 +721,7 @@ export default [
   },
   {
     label: '烽歌龙',
+    pinyin: 'fenggelong',
     alt: '幻兽帕鲁烽歌龙配种公式',
     value: 'Vanwyrm',
     avatar: '/images/Vanwyrm.webp',
@@ -638,6 +729,7 @@ export default [
   },
   {
     label: '霜歌龙',
+    pinyin: 'shuanggelong',
     alt: '幻兽帕鲁霜歌龙配种公式',
     value: 'Vanwyrm-Cryst',
     avatar: '/images/Vanwyrm-Cryst.webp',
@@ -645,6 +737,7 @@ export default [
   },
   {
     label: '浪刃武士',
+    pinyin: 'langrenwushi',
     alt: '幻兽帕鲁浪刃武士配种公式',
     value: 'Bushi',
     avatar: '/images/Bushi.webp',
@@ -652,6 +745,7 @@ export default [
   },
   {
     label: '鬼刃武士',
+    pinyin: 'guirenwushi',
     alt: '幻兽帕鲁鬼刃武士配种公式',
     value: 'Bushi-Noct',
     avatar: '/images/Bushi-Noct.webp',
@@ -659,6 +753,7 @@ export default [
   },
   {
     label: '迅雷鸟',
+    pinyin: 'xunleiniao',
     alt: '幻兽帕鲁迅雷鸟配种公式',
     value: 'Beakon',
     avatar: '/images/Beakon.webp',
@@ -666,6 +761,7 @@ export default [
   },
   {
     label: '燧火鸟',
+    pinyin: 'suihuoniao',
     alt: '幻兽帕鲁燧火鸟配种公式',
     value: 'Ragnahawk',
     avatar: '/images/Ragnahawk.webp',
@@ -673,6 +769,7 @@ export default [
   },
   {
     label: '暗巫猫',
+    pinyin: 'anwumao',
     alt: '幻兽帕鲁暗巫猫配种公式',
     value: 'Katress',
     avatar: '/images/Katress.webp',
@@ -680,6 +777,7 @@ export default [
   },
   {
     label: '炽巫猫',
+    pinyin: 'chiwumao',
     alt: '幻兽帕鲁炽巫猫配种公式',
     value: 'Katress-Ignis',
     avatar: '/images/Katress-Ignis.webp',
@@ -687,6 +785,7 @@ export default [
   },
   {
     label: '焰巫狐',
+    pinyin: 'yanwuhu',
     alt: '幻兽帕鲁焰巫狐配种公式',
     value: 'Wixen',
     avatar: '/images/Wixen.webp',
@@ -694,6 +793,7 @@ export default [
   },
   {
     label: '幽巫狐',
+    pinyin: 'youwuhu',
     alt: '幻兽帕鲁幽巫狐配种公式',
     value: 'Wixen-Noct',
     avatar: '/images/Wixen-Noct.webp',
@@ -701,6 +801,7 @@ export default [
   },
   {
     label: '踏春兔',
+    pinyin: 'tachuntu',
     alt: '幻兽帕鲁踏春兔配种公式',
     value: 'Verdash',
     avatar: '/images/Verdash.webp',
@@ -708,6 +809,7 @@ export default [
   },
   {
     label: '薇莉塔',
+    pinyin: 'weilita',
     alt: '幻兽帕鲁薇莉塔配种公式',
     value: 'Vaelet',
     avatar: '/images/Vaelet.webp',
@@ -715,6 +817,7 @@ export default [
   },
   {
     label: '绸笠蛾',
+    pinyin: 'choulie',
     alt: '幻兽帕鲁绸笠蛾配种公式',
     value: 'Sibelyx',
     avatar: '/images/Sibelyx.webp',
@@ -722,6 +825,7 @@ export default [
   },
   {
     label: '精灵龙',
+    pinyin: 'jinglinglong',
     alt: '幻兽帕鲁精灵龙配种公式',
     value: 'Elphidran',
     avatar: '/images/Elphidran.webp',
@@ -729,6 +833,7 @@ export default [
   },
   {
     label: '水灵龙',
+    pinyin: 'shuilinglong',
     alt: '幻兽帕鲁水灵龙配种公式',
     value: 'Elphidran-Aqua',
     avatar: '/images/Elphidran-Aqua.webp',
@@ -736,6 +841,7 @@ export default [
   },
   {
     label: '水灵儿',
+    pinyin: 'shuilinger',
     alt: '幻兽帕鲁水灵儿配种公式',
     value: 'Kelpsea',
     avatar: '/images/Kelpsea.webp',
@@ -743,6 +849,7 @@ export default [
   },
   {
     label: '火灵儿',
+    pinyin: 'huolinger',
     alt: '幻兽帕鲁火灵儿配种公式',
     value: 'Kelpsea-Ignis',
     avatar: '/images/Kelpsea-Ignis.webp',
@@ -750,6 +857,7 @@ export default [
   },
   {
     label: '碧海龙',
+    pinyin: 'bihailong',
     alt: '幻兽帕鲁碧海龙配种公式',
     value: 'Azurobe',
     avatar: '/images/Azurobe.webp',
@@ -757,6 +865,7 @@ export default [
   },
   {
     label: '冰棘兽',
+    pinyin: 'bingjishou',
     alt: '幻兽帕鲁冰棘兽配种公式',
     value: 'Cryolinx',
     avatar: '/images/Cryolinx.webp',
@@ -764,6 +873,7 @@ export default [
   },
   {
     label: '金棘兽',
+    pinyin: 'jinjishou',
     alt: '幻兽帕鲁金棘兽配种公式',
     value: 'Cryolinx-Terra',
     avatar: '/images/Cryolinx-Terra.webp',
@@ -771,6 +881,7 @@ export default [
   },
   {
     label: '狱焰王',
+    pinyin: 'yuyanwang',
     alt: '幻兽帕鲁狱焰王配种公式',
     value: 'Blazehowl',
     avatar: '/images/Blazehowl.webp',
@@ -778,6 +889,7 @@ export default [
   },
   {
     label: '狱阎王',
+    pinyin: 'yuyanwang',
     alt: '幻兽帕鲁狱阎王配种公式',
     value: 'Blazehowl-Noct',
     avatar: '/images/Blazehowl-Noct.webp',
@@ -785,6 +897,7 @@ export default [
   },
   {
     label: '佩克龙',
+    pinyin: 'peikelong',
     alt: '幻兽帕鲁佩克龙配种公式',
     value: 'Relaxaurus',
     avatar: '/images/Relaxaurus.webp',
@@ -792,6 +905,7 @@ export default [
   },
   {
     label: '派克龙',
+    pinyin: 'paikelong',
     alt: '幻兽帕鲁派克龙配种公式',
     value: 'Relaxaurus-Lux',
     avatar: '/images/Relaxaurus-Lux.webp',
@@ -799,6 +913,7 @@ export default [
   },
   {
     label: '连理龙',
+    pinyin: 'lianlilong',
     alt: '幻兽帕鲁连理龙配种公式',
     value: 'Broncherry',
     avatar: '/images/Broncherry.webp',
@@ -806,6 +921,7 @@ export default [
   },
   {
     label: '海誓龙',
+    pinyin: 'haishilong',
     alt: '幻兽帕鲁海誓龙配种公式',
     value: 'Broncherry-Aqua',
     avatar: '/images/Broncherry-Aqua.webp',
@@ -813,6 +929,7 @@ export default [
   },
   {
     label: '花丽娜',
+    pinyin: 'hualina',
     alt: '幻兽帕鲁花丽娜配种公式',
     value: 'Petallia',
     avatar: '/images/Petallia.webp',
@@ -820,6 +937,7 @@ export default [
   },
   {
     label: '熔岩兽',
+    pinyin: 'rongyanshou',
     alt: '幻兽帕鲁熔岩兽配种公式',
     value: 'Reptyro',
     avatar: '/images/Reptyro.webp',
@@ -827,6 +945,7 @@ export default [
   },
   {
     label: '寒霜兽',
+    pinyin: 'hanshuangshou',
     alt: '幻兽帕鲁寒霜兽配种公式',
     value: 'Reptyro-Cryst',
     avatar: '/images/Reptyro-Cryst.webp',
@@ -834,6 +953,7 @@ export default [
   },
   {
     label: '君王美露帕',
+    pinyin: 'junwangmeilupa',
     alt: '幻兽帕鲁君王美露帕配种公式',
     value: 'Kingpaca',
     avatar: '/images/Kingpaca.webp',
@@ -841,6 +961,7 @@ export default [
   },
   {
     label: '冰帝美露帕',
+    pinyin: 'bingdimeilupa',
     alt: '幻兽帕鲁冰帝美露帕配种公式',
     value: 'Kingpaca-Cryst',
     avatar: '/images/Kingpaca-Cryst.webp',
@@ -848,6 +969,7 @@ export default [
   },
   {
     label: '森猛犸',
+    pinyin: 'senmengma',
     alt: '幻兽帕鲁森猛犸配种公式',
     value: 'Mammorest',
     avatar: '/images/Mammorest.webp',
@@ -855,6 +977,7 @@ export default [
   },
   {
     label: '雪猛犸',
+    pinyin: 'xuemengma',
     alt: '幻兽帕鲁雪猛犸配种公式',
     value: 'Mammorest-Cryst',
     avatar: '/images/Mammorest-Cryst.webp',
@@ -862,6 +985,7 @@ export default [
   },
   {
     label: '白绒雪怪',
+    pinyin: 'bairongxueguai',
     alt: '幻兽帕鲁白绒雪怪配种公式',
     value: 'Wumpo',
     avatar: '/images/Wumpo.webp',
@@ -869,6 +993,7 @@ export default [
   },
   {
     label: '绿苔绒怪',
+    pinyin: 'lvtairongguai',
     alt: '幻兽帕鲁绿苔绒怪配种公式',
     value: 'Wumpo-Botan',
     avatar: '/images/Wumpo-Botan.webp',
@@ -876,6 +1001,7 @@ export default [
   },
   {
     label: '铠格力斯',
+    pinyin: 'kaigelisi',
     alt: '幻兽帕鲁铠格力斯配种公式',
     value: 'Warsect',
     avatar: '/images/Warsect.webp',
@@ -883,6 +1009,7 @@ export default [
   },
   {
     label: '格鲁力斯',
+    pinyin: 'gelulisi',
     alt: '幻兽帕鲁格鲁力斯配种公式',
     value: 'Warsect-Terra',
     avatar: '/images/Warsect-Terra.webp',
@@ -890,6 +1017,7 @@ export default [
   },
   {
     label: '云海鹿',
+    pinyin: 'yunhailu',
     alt: '幻兽帕鲁云海鹿配种公式',
     value: 'Fenglope',
     avatar: '/images/Fenglope.webp',
@@ -897,6 +1025,7 @@ export default [
   },
   {
     label: '雷隐鹿',
+    pinyin: 'leiyinlu',
     alt: '幻兽帕鲁雷隐鹿配种公式',
     value: 'Fenglope-Lux',
     avatar: '/images/Fenglope-Lux.webp',
@@ -904,6 +1033,7 @@ export default [
   },
   {
     label: '夜幕魔蝠',
+    pinyin: 'yemumofu',
     alt: '幻兽帕鲁夜幕魔蝠配种公式',
     value: 'Felbat',
     avatar: '/images/Felbat.webp',
@@ -911,6 +1041,7 @@ export default [
   },
   {
     label: '天羽龙',
+    pinyin: 'tianyulong',
     alt: '幻兽帕鲁天羽龙配种公式',
     value: 'Quivern',
     avatar: '/images/Quivern.webp',
@@ -918,6 +1049,7 @@ export default [
   },
   {
     label: '翠羽龙',
+    pinyin: 'cuiyulong',
     alt: '幻兽帕鲁翠羽龙配种公式',
     value: 'Quivern-Botan',
     avatar: '/images/Quivern-Botan.webp',
@@ -925,6 +1057,7 @@ export default [
   },
   {
     label: '焰煌',
+    pinyin: 'yanhuang',
     alt: '幻兽帕鲁焰煌配种公式',
     value: 'Blazamut',
     avatar: '/images/Blazamut.webp',
@@ -932,6 +1065,7 @@ export default [
   },
   {
     label: '殁殃',
+    pinyin: 'moyang',
     alt: '幻兽帕鲁殁殃配种公式',
     value: 'Blazamut-Ryu',
     avatar: '/images/Blazamut-Ryu.webp',
@@ -939,6 +1073,7 @@ export default [
   },
   {
     label: '雷冥鸟',
+    pinyin: 'leimingniao',
     alt: '幻兽帕鲁雷冥鸟配种公式',
     value: 'Helzephyr',
     avatar: '/images/Helzephyr.webp',
@@ -946,6 +1081,7 @@ export default [
   },
   {
     label: '雷鸣鸟',
+    pinyin: 'leimingniao',
     alt: '幻兽帕鲁雷鸣鸟配种公式',
     value: 'Helzephyr-Lux',
     avatar: '/images/Helzephyr-Lux.webp',
@@ -953,6 +1089,7 @@ export default [
   },
   {
     label: '魔渊龙',
+    pinyin: 'moyuanlong',
     alt: '幻兽帕鲁魔渊龙配种公式',
     value: 'Astegon',
     avatar: '/images/Astegon.webp',
@@ -960,6 +1097,7 @@ export default [
   },
   {
     label: '冥铠蝎',
+    pinyin: 'mingkaixie',
     alt: '幻兽帕鲁冥铠蝎配种公式',
     value: 'Menasting',
     avatar: '/images/Menasting.webp',
@@ -967,6 +1105,7 @@ export default [
   },
   {
     label: '金铠蝎',
+    pinyin: 'jinkaixie',
     alt: '幻兽帕鲁金铠蝎配种公式',
     value: 'Menasting-Terra',
     avatar: '/images/Menasting-Terra.webp',
@@ -974,6 +1113,7 @@ export default [
   },
   {
     label: '阿努比斯',
+    pinyin: 'anubisi',
     alt: '幻兽帕鲁阿努比斯配种公式',
     value: 'Anubis',
     avatar: '/images/Anubis.webp',
@@ -981,6 +1121,7 @@ export default [
   },
   {
     label: '覆海龙',
+    pinyin: 'fuhailong',
     alt: '幻兽帕鲁覆海龙配种公式',
     value: 'Jormuntide',
     avatar: '/images/Jormuntide.webp',
@@ -988,6 +1129,7 @@ export default [
   },
   {
     label: '腾炎龙',
+    pinyin: 'tengyanlong',
     alt: '幻兽帕鲁腾炎龙配种公式',
     value: 'Jormuntide-Ignis',
     avatar: '/images/Jormuntide-Ignis.webp',
@@ -995,6 +1137,7 @@ export default [
   },
   {
     label: '朱雀',
+    pinyin: 'zhuque',
     alt: '幻兽帕鲁朱雀配种公式',
     value: 'Suzaku',
     avatar: '/images/Suzaku.webp',
@@ -1002,6 +1145,7 @@ export default [
   },
   {
     label: '清雀',
+    pinyin: 'qingque',
     alt: '幻兽帕鲁清雀配种公式',
     value: 'Suzaku-Aqua',
     avatar: '/images/Suzaku-Aqua.webp',
@@ -1009,6 +1153,7 @@ export default [
   },
   {
     label: '暴电熊',
+    pinyin: 'baodianxiong',
     alt: '幻兽帕鲁暴电熊配种公式',
     value: 'Grizzbolt',
     avatar: '/images/Grizzbolt.webp',
@@ -1016,6 +1161,7 @@ export default [
   },
   {
     label: '百合女王',
+    pinyin: 'baihenvwang',
     alt: '幻兽帕鲁百合女王配种公式',
     value: 'Lyleen',
     avatar: '/images/Lyleen.webp',
@@ -1023,6 +1169,7 @@ export default [
   },
   {
     label: '黑月女王',
+    pinyin: 'heiyuenvwang',
     alt: '幻兽帕鲁黑月女王配种公式',
     value: 'Lyleen-Noct',
     avatar: '/images/Lyleen-Noct.webp',
@@ -1030,6 +1177,7 @@ export default [
   },
   {
     label: '荷鲁斯',
+    pinyin: 'helusi',
     alt: '幻兽帕鲁荷鲁斯配种公式',
     value: 'Faleris',
     avatar: '/images/Faleris.webp',
@@ -1037,6 +1185,7 @@ export default [
   },
   {
     label: '伊西斯',
+    pinyin: 'yixisi',
     alt: '幻兽帕鲁伊西斯配种公式',
     value: 'Faleris-Aqua',
     avatar: '/images/Faleris-Aqua.webp',
@@ -1044,6 +1193,7 @@ export default [
   },
   {
     label: '波鲁杰克斯',
+    pinyin: 'bolujiekesi',
     alt: '幻兽帕鲁波鲁杰克斯配种公式',
     value: 'Orserk',
     avatar: '/images/Orserk.webp',
@@ -1051,6 +1201,7 @@ export default [
   },
   {
     label: '异构格里芬',
+    pinyin: 'yigougelifen',
     alt: '幻兽帕鲁异构格里芬配种公式',
     value: 'Shadowbeak',
     avatar: '/images/Shadowbeak.webp',
@@ -1058,6 +1209,7 @@ export default [
   },
   {
     label: '圣光骑士',
+    pinyin: 'shengguangqishi',
     alt: '幻兽帕鲁圣光骑士配种公式',
     value: 'Paladius',
     avatar: '/images/Paladius.webp',
@@ -1065,6 +1217,7 @@ export default [
   },
   {
     label: '混沌骑士',
+    pinyin: 'hundunqishi',
     alt: '幻兽帕鲁混沌骑士配种公式',
     value: 'Necromus',
     avatar: '/images/Necromus.webp',
@@ -1072,6 +1225,7 @@ export default [
   },
   {
     label: '唤冬兽',
+    pinyin: 'huandongshou',
     alt: '幻兽帕鲁唤冬兽配种公式',
     value: 'Frostallion',
     avatar: '/images/Frostallion.webp',
@@ -1079,6 +1233,7 @@ export default [
   },
   {
     label: '唤夜兽',
+    pinyin: 'huanyeshou',
     alt: '幻兽帕鲁唤夜兽配种公式',
     value: 'Frostallion-Noct',
     avatar: '/images/Frostallion-Noct.webp',
@@ -1086,6 +1241,7 @@ export default [
   },
   {
     label: '空涡龙',
+    pinyin: 'kongwolong',
     alt: '幻兽帕鲁空涡龙配种公式',
     value: 'Jetragon',
     avatar: '/images/Jetragon.webp',
@@ -1093,6 +1249,7 @@ export default [
   },
   {
     label: '贝菈诺娃',
+    pinyin: 'beilanuowa',
     alt: '幻兽帕鲁贝菈诺娃配种公式',
     value: 'Bellanoir',
     avatar: '/images/Bellanoir.webp',
@@ -1100,6 +1257,7 @@ export default [
   },
   {
     label: '贝菈露洁',
+    pinyin: 'beilalujie',
     alt: '幻兽帕鲁贝菈露洁配种公式',
     value: 'Bellanoir-Libero',
     avatar: '/images/Bellanoir-Libero.webp',
@@ -1107,6 +1265,7 @@ export default [
   },
   {
     label: '辉月伊',
+    pinyin: 'huiyueyi',
     alt: '幻兽帕鲁辉月伊配种公式',
     value: 'Selyne',
     avatar: '/images/Selyne.webp',
@@ -1114,6 +1273,7 @@ export default [
   },
   {
     label: '武道蛙',
+    pinyin: 'wudaowa',
     alt: '幻兽帕鲁武道蛙配种公式',
     value: 'Croajiro',
     avatar: '/images/Croajiro.webp',
@@ -1121,6 +1281,7 @@ export default [
   },
   {
     label: '春彩娘',
+    pinyin: 'chuncainiang',
     alt: '幻兽帕鲁春彩娘配种公式',
     value: 'Lullu',
     avatar: '/images/Lullu.webp',
@@ -1128,6 +1289,7 @@ export default [
   },
   {
     label: '菇咚',
+    pinyin: 'gudong',
     alt: '幻兽帕鲁菇咚配种公式',
     value: 'Shroomer',
     avatar: '/images/Shroomer.webp',
@@ -1135,6 +1297,7 @@ export default [
   },
   {
     label: '菇波',
+    pinyin: 'gubo',
     alt: '幻兽帕鲁菇波配种公式',
     value: 'Shroomer-Noct',
     avatar: '/images/Shroomer-Noct.webp',
@@ -1142,6 +1305,7 @@ export default [
   },
   {
     label: '球犰',
+    pinyin: 'qiuqi',
     alt: '幻兽帕鲁球犰配种公式',
     value: 'Kikit',
     avatar: '/images/Kikit.webp',
@@ -1149,6 +1313,7 @@ export default [
   },
   {
     label: '恐炬灵',
+    pinyin: 'kongjuling',
     alt: '幻兽帕鲁恐炬灵配种公式',
     value: 'Sootseer',
     avatar: '/images/Sootseer.webp',
@@ -1156,6 +1321,7 @@ export default [
   },
   {
     label: '蛊刺妖',
+    pinyin: 'guciyao',
     alt: '幻兽帕鲁蛊刺妖配种公式',
     value: 'Prixter',
     avatar: '/images/Prixter.webp',
@@ -1163,6 +1329,7 @@ export default [
   },
   {
     label: '泰锋',
+    pinyin: 'taifeng',
     alt: '幻兽帕鲁泰锋配种公式',
     value: 'Knocklem',
     avatar: '/images/Knocklem.webp',
@@ -1170,6 +1337,7 @@ export default [
   },
   {
     label: '八云犬',
+    pinyin: 'bayunquan',
     alt: '幻兽帕鲁八云犬配种公式',
     value: 'Yakumo',
     avatar: '/images/Yakumo.webp',
@@ -1177,6 +1345,7 @@ export default [
   },
   {
     label: '汪宗师',
+    pinyin: 'wangzongshi',
     alt: '幻兽帕鲁汪宗师配种公式',
     value: 'Dogen',
     avatar: '/images/Dogen.webp',
@@ -1184,6 +1353,7 @@ export default [
   },
   {
     label: '战冠雀',
+    pinyin: 'zhanguanque',
     alt: '幻兽帕鲁战冠雀配种公式',
     value: 'Dazemu',
     avatar: '/images/Dazemu.webp',
@@ -1191,6 +1361,7 @@ export default [
   },
   {
     label: '旺财',
+    pinyin: 'wangcai',
     alt: '幻兽帕鲁旺财配种公式',
     value: 'Mimog',
     avatar: '/images/Mimog.webp',
@@ -1198,6 +1369,7 @@ export default [
   },
   {
     label: '杰诺贝达',
+    pinyin: 'jienuobeida',
     alt: '幻兽帕鲁杰诺贝达配种公式',
     value: 'Xenovader',
     avatar: '/images/Xenovader.webp',
@@ -1205,6 +1377,7 @@ export default [
   },
   {
     label: '杰诺路达',
+    pinyin: 'jienuoluda',
     alt: '幻兽帕鲁杰诺路达配种公式',
     value: 'Xenogard',
     avatar: '/images/Xenogard.webp',
@@ -1212,6 +1385,7 @@ export default [
   },
   {
     label: '杰诺多兰',
+    pinyin: 'jienuoduolan',
     alt: '幻兽帕鲁杰诺多兰配种公式',
     value: 'Xenolord',
     avatar: '/images/Xenolord.webp',
@@ -1219,6 +1393,7 @@ export default [
   },
   {
     label: '魅爱莉',
+    pinyin: 'meiaili',
     alt: '幻兽帕鲁魅爱莉配种公式',
     value: 'Nitemary',
     avatar: '/images/Nitemary.webp',
@@ -1226,6 +1401,7 @@ export default [
   },
   {
     label: '夜冥驹',
+    pinyin: 'yemingju',
     alt: '幻兽帕鲁夜冥驹配种公式',
     value: 'Starryon',
     avatar: '/images/Starryon.webp',
@@ -1233,6 +1409,7 @@ export default [
   },
   {
     label: '艾基鲁迦',
+    pinyin: 'aijilujia',
     alt: '幻兽帕鲁艾基鲁迦配种公式',
     value: 'Silvegis',
     avatar: '/images/Silvegis.webp',
@@ -1240,6 +1417,7 @@ export default [
   },
   {
     label: '墨丸',
+    pinyin: 'mowan',
     alt: '幻兽帕鲁墨丸配种公式',
     value: 'Smokie',
     avatar: '/images/Smokie.webp',
@@ -1247,6 +1425,7 @@ export default [
   },
   {
     label: '净世鹿',
+    pinyin: 'jingshilu',
     alt: '幻兽帕鲁净世鹿配种公式',
     value: 'Celesdir',
     avatar: '/images/Celesdir.webp',
@@ -1254,6 +1433,7 @@ export default [
   },
   {
     label: '面惧',
+    pinyin: 'mianju',
     alt: '幻兽帕鲁面惧配种公式',
     value: 'Omascul',
     avatar: '/images/Omascul.webp',
@@ -1261,6 +1441,7 @@ export default [
   },
   {
     label: '幽恋娜',
+    pinyin: 'youlianna',
     alt: '幻兽帕鲁幽恋娜配种公式',
     value: 'Splatterina',
     avatar: '/images/Splatterina.webp',
@@ -1268,6 +1449,7 @@ export default [
   },
   {
     label: '桃蛛娘',
+    pinyin: 'taozhuniang',
     alt: '幻兽帕鲁桃蛛娘配种公式',
     value: 'Tarantriss',
     avatar: '/images/Tarantriss.webp',
@@ -1275,6 +1457,7 @@ export default [
   },
   {
     label: '驭雷马',
+    pinyin: 'yuleima',
     alt: '幻兽帕鲁驭雷马配种公式',
     value: 'Azurmane',
     avatar: '/images/Azurmane.webp',
@@ -1282,6 +1465,7 @@ export default [
   },
   {
     label: '霜牙王',
+    pinyin: 'shuangyawang',
     alt: '幻兽帕鲁霜牙王配种公式',
     value: 'Bastigor',
     avatar: '/images/Bastigor.webp',
@@ -1289,6 +1473,7 @@ export default [
   },
   {
     label: '梅莉姆',
+    pinyin: 'meilimu',
     alt: '幻兽帕鲁梅莉姆配种公式',
     value: 'Prunelia',
     avatar: '/images/Prunelia.webp',
@@ -1296,6 +1481,7 @@ export default [
   },
   {
     label: '妮瞅莎',
+    pinyin: 'nichousha',
     alt: '幻兽帕鲁妮瞅莎配种公式',
     value: 'Nyafia',
     avatar: '/images/Nyafia.webp',
@@ -1303,6 +1489,7 @@ export default [
   },
   {
     label: '金驰兽',
+    pinyin: 'jinchishou',
     alt: '幻兽帕鲁金驰兽配种公式',
     value: 'Gildane',
     avatar: '/images/Gildane.webp',
