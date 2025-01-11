@@ -27,6 +27,7 @@ router.afterEach((to) => {
       >
         <t-menu-item value="paldex">帕鲁图鉴</t-menu-item>
         <t-menu-item value="breeding">配种公式</t-menu-item>
+        <t-menu-item value="attr_image">属性克制</t-menu-item>
       </t-head-menu>
     </t-header>
     <t-content>
@@ -38,6 +39,7 @@ router.afterEach((to) => {
 <style>
 .t-layout {
   min-height: 100vh;
+  background-color: #e2f2ff;
 }
 
 .t-header {

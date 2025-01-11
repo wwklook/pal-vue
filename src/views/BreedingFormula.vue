@@ -1,21 +1,14 @@
 <script setup lang="ts">
 import { ref, computed, unref } from 'vue'
 import type { SelectInputProps } from 'tdesign-vue-next';
-import palData from '@/assets/palData'
+import {
+  palData,
+} from '@/assets/baseData'
 import palBreedingResultList from '@/assets/palBreedingResultList'
 
 type TPalValue = {
   label: string
   value: string
-}
-
-const getImageUrl = (name: string) => {
-  if (!name) return ''
-  try {
-    return new URL(`../assets/images/${name}.webp`, import.meta.url).href
-  } catch {
-    return new URL(`../assets/images/default.webp`, import.meta.url).href
-  }
 }
 
 const options1 = ref(palData)
@@ -29,7 +22,7 @@ const parent1 = ref<TPalValue | null>(null)
 const parent2 = ref<TPalValue | null>(null)
 const targetPal = ref<TPalValue | null>(null)
 const currentPage = ref(1)
-const pageSize = 10 // 每页显示10个结果
+const pageSize = ref(10) // 每页显示10个结果
 
 const possibleBreedings = computed(() => {
   if (!unref(parent1)?.value && !unref(parent2)?.value && !unref(targetPal)?.value) return []
@@ -72,25 +65,16 @@ const possibleBreedings = computed(() => {
     const resultInfo = palData.find(p => p.value === item.child_key)
 
     return {
-      parent1: {
-        label: firstParentInfo?.label || firstParent,
-        avatar: getImageUrl(firstParent || '')
-      },
-      parent2: {
-        label: secondParentInfo?.label || secondParent,
-        avatar: getImageUrl(secondParent || '')
-      },
-      child: {
-        label: resultInfo?.label || item.child_key,
-        avatar: getImageUrl(item.child_key || '')
-      }
+      parent1: firstParentInfo,
+      parent2: secondParentInfo,
+      child: resultInfo,
     }
   })
 })
 
 const paginatedBreedings = computed(() => {
-  const start = (currentPage.value - 1) * pageSize
-  const end = start + pageSize
+  const start = (currentPage.value - 1) * pageSize.value
+  const end = start + pageSize.value
   return possibleBreedings.value.slice(start, end)
 })
 
@@ -101,16 +85,19 @@ const handlePageChange = (e: { current: number; }) => {
 const handleParent1Click = (pal: { label: string; value: string }) => {
   popupVisible1.value = false
   parent1.value = pal
+  currentPage.value = 1
 }
 
 const handleParent2Click = (pal: { label: string; value: string }) => {
   popupVisible2.value = false
   parent2.value = pal
+  currentPage.value = 1
 }
 
 const handleTargetClick = (pal: { label: string; value: string }) => {
   popupVisible3.value = false
   targetPal.value = pal
+  currentPage.value = 1
 }
 
 const onInput1Change: SelectInputProps['onInputChange'] = (val) => {
@@ -127,6 +114,10 @@ const onTargetChange: SelectInputProps['onInputChange'] = (val) => {
   // 过滤功能
   options3.value = palData.filter(item => item.label.includes(val) || item.pinyin.includes(val))
 };
+
+const handlePageSizeChange = (size: number) => {
+  pageSize.value = size;
+}
 
 </script>
 
@@ -212,28 +203,29 @@ const onTargetChange: SelectInputProps['onInputChange'] = (val) => {
               class="breeding-item"
             >
               <div class="pal-info">
-                <t-image :src="item.parent1.avatar" class="pal-image" />
-                <div class="pal-name">{{ item.parent1.label }}</div>
+                <t-image :src="item.parent1?.avatar" class="pal-image" />
+                <div class="pal-name">{{ item.parent1?.label }}</div>
               </div>
               <span class="operation">+</span>
               <div class="pal-info">
-                <t-image :src="item.parent2.avatar" class="pal-image" />
-                <div class="pal-name">{{ item.parent2.label }}</div>
+                <t-image :src="item.parent2?.avatar" class="pal-image" />
+                <div class="pal-name">{{ item.parent2?.label }}</div>
               </div>
               <span class="operation">=</span>
               <div class="pal-info">
-                <t-image :src="item.child.avatar" class="pal-image" />
-                <div class="pal-name">{{ item.child.label }}</div>
+                <t-image :src="item.child?.avatar" class="pal-image" />
+                <div class="pal-name">{{ item.child?.label }}</div>
               </div>
             </div>
           </div>
         </div>
         <t-pagination
-          v-if="possibleBreedings.length > pageSize"
+          v-if="possibleBreedings.length > 0"
           :total="possibleBreedings.length"
           :page-size="pageSize"
           :current="currentPage"
           @change="handlePageChange"
+          @page-size-change="handlePageSizeChange"
           show-total
           show-jumper
         />

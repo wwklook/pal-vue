@@ -21,7 +21,7 @@ declare module 'vue' {
     TPagination: typeof import('tdesign-vue-next')['Pagination']
     TSelectInput: typeof import('tdesign-vue-next')['SelectInput']
     TSpace: typeof import('tdesign-vue-next')['Space']
-    TText: typeof import('tdesign-vue-next')['Text']
+    TTooltip: typeof import('tdesign-vue-next')['Tooltip']
     TTypography: typeof import('tdesign-vue-next')['Typography']
   }
 }
